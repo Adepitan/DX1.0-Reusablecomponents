@@ -14,15 +14,47 @@
     <section class="color-changer-project">
         <div class="color-app-holder">
             <div class="left-holder">
+                <!-- method 1 -->
 
-                <div class="circle red" onclick="alert('Welcome, box 1 is clicked')"></div>
-                <div class="circle orange" id="orangediv"></div>
-                <div class="circle blue"></div>
+                <!-- <div class="circle red" onclick=popsomething()></div> -->
+                <!-- <div class="circle red" onclick=changetoorange()></div>
+                <div class="circle orange" id="orangediv" onclick=changetotomato()></div>
+                <div class="circle blue" onclick=changetoskyblue()></div> -->
+
+                <!-- method 2 -->
+
+                <div class="circle red" onclick='ChangeColor("#FFA800")'></div>
+                <div class="circle orange" id="orangediv" onclick='ChangeColor("tomato")'></div>
+                <div class="circle blue" onclick='ChangeColor("skyblue")'></div>
 
             </div>
-            <div class="right-holder"></div>
+            <div class="right-holder" id="right-holder"></div>
         </div>
     </section>
+
+    <section class="working-with-box-model">
+        <div class="parent1">
+
+            <div class="box-model-child"></div>
+            <div class="box-model-child"></div>
+
+        </div>
+
+        <div class="parent2">
+            <div class="box-model-child parent2-child"></div>
+            <!-- <div class="box-model-child"></div> -->
+        </div>
+    </section>
+
+
+    <!-- <section class="working-with-flexbox-row">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </section> -->
+
+
+
 
 
     <script src="main.js"></script>
